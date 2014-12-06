@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="qStudents" Title="" entityHeight="200" entityIconified="false" entityId="141787597028082" entityLocationX="171" entityLocationY="14" entityWidth="150" queryId="qStudents" tableName="" tableSchemaName=""/>
+  <entity Name="qFaculty" Title="" entityHeight="200" entityIconified="false" entityId="141787597808738" entityLocationX="415" entityLocationY="6" entityWidth="150" queryId="qFaculty" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityId="141787597028082" rightEntityParameterName="sName"/>
+  <referenceRelation leftEntityFieldName="faculty" leftEntityId="141787597028082" rightEntityFieldName="faculty_id" rightEntityId="141787597808738"/>
+</datamodel>

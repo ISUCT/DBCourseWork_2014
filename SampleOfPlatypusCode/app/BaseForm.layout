@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="124px" prefWidth="400px">
+  <widget name="button1" parent="Form" prefHeight="30px" prefWidth="180px" text="Faculty" type="ButtonDesignInfo">
+    <constraints height="30px" left="178px" top="70px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget name="btnStudents" parent="Form" prefHeight="30px" prefWidth="324px" text="Students" type="ButtonDesignInfo">
+    <constraints height="30px" left="34px" right="42px" top="34px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

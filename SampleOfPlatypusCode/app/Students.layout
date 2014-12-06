@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="185px" prefWidth="400px">
+  <widget name="modelGrid" parent="Form" prefHeight="100px" prefWidth="372px" type="DbGridDesignInfo">
+    <column name="colSurname">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="141787597028082" fieldName="surname"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colName">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="141787597028082" fieldName="name"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <column name="colFaculty">
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141787597808738" fieldName="faculty_id"/>
+        <displayField entityId="141787597808738" fieldName="name"/>
+      </controlInfo>
+      <datamodelElement entityId="141787597028082" fieldName="faculty"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141787597028082" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="100px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="30px" prefWidth="60px" text="button" type="ButtonDesignInfo">
+    <constraints bottom="11px" height="30px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="28px" prefWidth="192px" type="TextFieldDesignInfo">
+    <constraints height="28px" left="12px" top="120px" type="MarginConstraintsDesignInfo" width="192px"/>
+  </widget>
+  <widget name="button1" parent="Form" prefHeight="30px" prefWidth="68px" text="button1" type="ButtonDesignInfo">
+    <constraints height="30px" left="216px" top="120px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
