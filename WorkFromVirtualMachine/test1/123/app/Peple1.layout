@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="346px" prefWidth="443px">
+  <widget name="button" parent="Form" prefHeight="36px" prefWidth="84px" text="Start" type="ButtonDesignInfo">
+    <constraints height="36px" right="33px" top="12px" type="MarginConstraintsDesignInfo" width="84px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="252px" prefWidth="396px" type="DbGridDesignInfo">
+    <column name="colПостояльцы_id">
+      <datamodelElement entityId="141803943991314" fieldName="постояльцы_id"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colФамилие">
+      <datamodelElement entityId="141803943991314" fieldName="фамилие"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colИмя">
+      <datamodelElement entityId="141803943991314" fieldName="имя"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colОтчество">
+      <datamodelElement entityId="141803943991314" fieldName="отчество"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colПол">
+      <datamodelElement entityId="141803943991314" fieldName="пол"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colВозраст">
+      <datamodelElement entityId="141803943991314" fieldName="возраст"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141803943991314" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="252px" left="24px" top="72px" type="MarginConstraintsDesignInfo" width="396px"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="36px" prefWidth="276px" type="TextFieldDesignInfo">
+    <constraints height="36px" left="24px" top="12px" type="MarginConstraintsDesignInfo" width="276px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

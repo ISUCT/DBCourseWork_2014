@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="MyBase">
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803889465948" entityLocationX="505" entityLocationY="485" entityWidth="150" tableName="ЦЕНЫ НА КОМНАТЫ"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803889049395" entityLocationX="701" entityLocationY="305" entityWidth="150" tableName="УЧЁТ ЗАБРОНИРОВАННЫХ МЕСТ"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803887195261" entityLocationX="31" entityLocationY="142" entityWidth="150" tableName="ЗАНЯТЫЕ НОМЕРА"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803888604439" entityLocationX="728" entityLocationY="30" entityWidth="150" tableName="УСЛУГИ"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803885999874" entityLocationX="236" entityLocationY="47" entityWidth="150" tableName="ЗАКАЗ УСЛУГ"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803887553642" entityLocationX="239" entityLocationY="304" entityWidth="150" tableName="НОМЕРА"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="141803888152452" entityLocationX="13" entityLocationY="410" entityWidth="150" tableName="ПОСТОЯЛЬЦЫ"/>
+</datamodel>
