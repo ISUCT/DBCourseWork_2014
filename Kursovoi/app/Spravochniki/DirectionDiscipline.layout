@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
+  <widget name="modelGrid" parent="Form" prefHeight="228px" prefWidth="372px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141846405225289" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="colDirectionsdisciplines_id">
+      <datamodelElement entityId="141846405225289" fieldName="directionsdisciplines_id"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colDirection">
+      <datamodelElement entityId="141846405225289" fieldName="direction"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846421909615" fieldName="directions_id"/>
+        <displayField entityId="141846421909615" fieldName="directionname"/>
+      </controlInfo>
+    </column>
+    <column name="colDiscipliner">
+      <datamodelElement entityId="141846405225289" fieldName="discipliner"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846423954098" fieldName="raspdisciplines_id"/>
+        <displayField entityId="141846423954098" fieldName="name"/>
+      </controlInfo>
+    </column>
+    <column name="colTeacherr">
+      <datamodelElement entityId="141846405225289" fieldName="teacherr"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846423550965" fieldName="rateteacher_id"/>
+        <displayField entityId="141846423550965" fieldName="teacher"/>
+      </controlInfo>
+    </column>
+    <column name="colNewyear">
+      <datamodelElement entityId="141846405225289" fieldName="newyear"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846422446040" fieldName="years_id"/>
+        <displayField entityId="141846422446040" fieldName="yearname"/>
+      </controlInfo>
+    </column>
+    <constraints height="228px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
+  </widget>
+  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="216px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="144px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

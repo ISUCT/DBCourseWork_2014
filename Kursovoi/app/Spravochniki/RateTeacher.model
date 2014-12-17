@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="qTeachers" Title="" entityHeight="200" entityIconified="false" entityId="141846023895580" entityLocationX="468" entityLocationY="15" entityWidth="150" queryId="qTeachers" tableName="" tableSchemaName=""/>
+  <entity Name="qEmployment" Title="" entityHeight="200" entityIconified="false" entityId="141846024443347" entityLocationX="463" entityLocationY="237" entityWidth="150" queryId="qEmployment" tableName="" tableSchemaName=""/>
+  <entity Name="qRateTeacher" Title="" entityHeight="200" entityIconified="false" entityId="141845497084011" entityLocationX="214" entityLocationY="58" entityWidth="150" queryId="qRateTeacher" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="employ" leftEntityId="141845497084011" rightEntityFieldName="employment_id" rightEntityId="141846024443347"/>
+  <referenceRelation leftEntityFieldName="teacher" leftEntityId="141845497084011" rightEntityFieldName="teachers_id" rightEntityId="141846023895580"/>
+</datamodel>

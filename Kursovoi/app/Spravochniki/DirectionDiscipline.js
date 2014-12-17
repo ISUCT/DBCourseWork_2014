@@ -2,7 +2,7 @@
  * 
  * @author ageevatn
  */
-function Teachers() {
+function DirectionDiscipline() {
     var self = this
             , model = P.loadModel(this.constructor.name)
             , form = P.loadForm(this.constructor.name, model);
@@ -15,20 +15,12 @@ function Teachers() {
     
     // TODO : place your code here
     form.btnInsert.onActionPerformed = function(event) {
-        model.qTeachers.insert();
+        model.qDirectionDiscipline.insert();
     };
-    
     form.btnDelete.onActionPerformed = function(event) {
-        model.qTeachers.deleteRow();
+        model.qDirectionDiscipline.deleteRow();
     };
-    
     form.btnSave.onActionPerformed = function(event) {
         model.save();
     };
-    form.button.onActionPerformed = function(event) {
-       var additional = new Additional(model.qTeachers.cursor.teachers_id);
-       additional.show();
-    };
-    
-
 }

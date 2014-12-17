@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="qRaspDiscipline" Title="" entityHeight="200" entityIconified="false" entityId="141845553795996" entityLocationX="215" entityLocationY="47" entityWidth="150" queryId="qRaspDiscipline" tableName="" tableSchemaName=""/>
+  <entity Name="qSemesters" Title="" entityHeight="200" entityIconified="false" entityId="141846212253261" entityLocationX="441" entityLocationY="246" entityWidth="150" queryId="qSemesters" tableName="" tableSchemaName=""/>
+  <entity Name="qDisciplines" Title="" entityHeight="200" entityIconified="false" entityId="141846212969279" entityLocationX="231" entityLocationY="307" entityWidth="150" queryId="qDisciplines" tableName="" tableSchemaName=""/>
+  <entity Name="qCourses" Title="" entityHeight="200" entityIconified="false" entityId="141846211620899" entityLocationX="414" entityLocationY="33" entityWidth="150" queryId="qCourses" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="semester" leftEntityId="141845553795996" rightEntityFieldName="semesters_id" rightEntityId="141846212253261"/>
+  <referenceRelation leftEntityFieldName="course" leftEntityId="141845553795996" rightEntityFieldName="courses_id" rightEntityId="141846211620899"/>
+  <referenceRelation leftEntityFieldName="name" leftEntityId="141845553795996" rightEntityFieldName="discipline_id" rightEntityId="141846212969279"/>
+</datamodel>

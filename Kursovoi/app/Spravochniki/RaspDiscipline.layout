@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="375px" prefWidth="638px">
+  <widget name="modelGrid" parent="Form" prefHeight="228px" prefWidth="610px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141845553795996" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="colRaspdisciplines_id">
+      <datamodelElement entityId="141845553795996" fieldName="raspdisciplines_id"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colCourse">
+      <datamodelElement entityId="141845553795996" fieldName="course"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846211620899" fieldName="courses_id"/>
+        <displayField entityId="141846211620899" fieldName="course"/>
+      </controlInfo>
+    </column>
+    <column name="colSemester">
+      <datamodelElement entityId="141845553795996" fieldName="semester"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846212253261" fieldName="semesters_id"/>
+        <displayField entityId="141846212253261" fieldName="semester"/>
+      </controlInfo>
+    </column>
+    <column name="colNumpotoks">
+      <datamodelElement entityId="141845553795996" fieldName="numpotoks"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colNumworkgroup">
+      <datamodelElement entityId="141845553795996" fieldName="numworkgroup"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colNumstudents">
+      <datamodelElement entityId="141845553795996" fieldName="numstudents"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+    </column>
+    <column name="colName">
+      <datamodelElement entityId="141845553795996" fieldName="name"/>
+      <columnsDatasource/>
+      <columnsDisplayField/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Ubuntu" size="15"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="141846212969279" fieldName="discipline_id"/>
+        <displayField entityId="141846212969279" fieldName="disciplinename"/>
+      </controlInfo>
+    </column>
+    <constraints height="228px" left="12px" right="16px" top="12px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="60px" text="-" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="216px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="60px" text="+" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="button" parent="Form" prefHeight="29px" prefWidth="60px" text="info" type="ButtonDesignInfo">
+    <constraints bottom="10px" height="29px" left="24px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

@@ -19,8 +19,8 @@
     }
 })();
 window.P.ready = function() {
-    window.P.require(['Teachers'], function(){
-        var f = new Teachers();
+    window.P.require(['DirectionDiscipline'], function(){
+        var f = new DirectionDiscipline();
         f.show();
     });
 };
