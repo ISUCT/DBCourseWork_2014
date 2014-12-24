@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="404px">
-  <widget name="modelGrid" parent="Form" prefHeight="228px" prefWidth="384px" type="DbGridDesignInfo">
-    <treeDesignInfo/>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="141845497084011" field="false"/>
-    </rowsColumnsDesignInfo>
+  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" right="8px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="240px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="240px" prefWidth="372px" type="DbGridDesignInfo">
     <column name="colRateteacher_id">
       <datamodelElement entityId="141845497084011" fieldName="rateteacher_id"/>
       <columnsDatasource/>
@@ -19,8 +24,8 @@
       </headerStyle>
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colTeacher">
-      <datamodelElement entityId="141845497084011" fieldName="teacher"/>
+    <column name="colПреподаватель">
+      <datamodelElement entityId="141845497084011" fieldName="преподаватель"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -34,11 +39,11 @@
       </headerStyle>
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="141846023895580" fieldName="teachers_id"/>
-        <displayField entityId="141846023895580" fieldName="surname"/>
+        <displayField entityId="141846023895580" fieldName="фамилия"/>
       </controlInfo>
     </column>
-    <column name="colEmploy">
-      <datamodelElement entityId="141845497084011" fieldName="employ"/>
+    <column name="colСтавка">
+      <datamodelElement entityId="141845497084011" fieldName="ставка"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -52,19 +57,14 @@
       </headerStyle>
       <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
         <valueField entityId="141846024443347" fieldName="employment_id"/>
-        <displayField entityId="141846024443347" fieldName="rate"/>
+        <displayField entityId="141846024443347" fieldName="ставка"/>
       </controlInfo>
     </column>
-    <constraints height="228px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="384px"/>
-  </widget>
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" right="8px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="240px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="68px"/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141845497084011" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="240px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

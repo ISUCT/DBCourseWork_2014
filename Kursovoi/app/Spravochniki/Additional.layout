@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
-  <widget name="modelGrid" parent="Form" prefHeight="72px" prefWidth="372px" type="DbGridDesignInfo">
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="141845417672723" field="false"/>
-    </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
+  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="60px" text="-" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="216px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="60px" text="+" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="modelFormattedField" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="141845417672723" fieldName="дипломное проектирование"/>
+    <constraints height="27px" right="24px" top="132px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelFormattedField1" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="141845417672723" fieldName="занятия с аспирантами"/>
+    <constraints height="27px" right="24px" top="168px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelFormattedField2" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="141845417672723" fieldName="руководство кафедрой"/>
+    <constraints bottom="69px" height="27px" right="24px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="100px" prefWidth="372px" type="DbGridDesignInfo">
     <column name="colAdditionalinformation_id">
       <datamodelElement entityId="141845417672723" fieldName="additionalinformation_id"/>
       <columnsDatasource/>
@@ -19,8 +36,8 @@
       </headerStyle>
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colDiplomeproject">
-      <datamodelElement entityId="141845417672723" fieldName="diplomeproject"/>
+    <column name="colДипломное проектирование">
+      <datamodelElement entityId="141845417672723" fieldName="дипломное проектирование"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -34,8 +51,8 @@
       </headerStyle>
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colWorkwasp">
-      <datamodelElement entityId="141845417672723" fieldName="workwasp"/>
+    <column name="colЗанятия с аспирантами">
+      <datamodelElement entityId="141845417672723" fieldName="занятия с аспирантами"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -49,8 +66,8 @@
       </headerStyle>
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colBossofcafedra">
-      <datamodelElement entityId="141845417672723" fieldName="bossofcafedra"/>
+    <column name="colРуководство кафедрой">
+      <datamodelElement entityId="141845417672723" fieldName="руководство кафедрой"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -64,28 +81,20 @@
       </headerStyle>
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <constraints height="72px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141845417672723" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="100px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
   </widget>
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
+  <widget name="label" parent="Form" prefHeight="24px" prefWidth="216px" text="Дипломное проектирование" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="132px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="60px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="216px" type="MarginConstraintsDesignInfo" width="60px"/>
+  <widget name="label1" parent="Form" prefHeight="24px" prefWidth="204px" text="Занятия с аспирантами" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="204px"/>
   </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="60px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="156px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="modelFormattedField" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845417672723" fieldName="diplomeproject"/>
-    <constraints height="27px" left="96px" top="96px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField1" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845417672723" fieldName="workwasp"/>
-    <constraints height="27px" left="96px" top="132px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField2" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845417672723" fieldName="bossofcafedra"/>
-    <constraints height="27px" left="96px" top="168px" type="MarginConstraintsDesignInfo" width="100px"/>
+  <widget name="label2" parent="Form" prefHeight="24px" prefWidth="216px" text="Руководство кафедрой" type="LabelDesignInfo">
+    <constraints bottom="72px" height="24px" left="24px" type="MarginConstraintsDesignInfo" width="216px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

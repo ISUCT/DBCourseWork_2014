@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
-  <widget name="modelGrid" parent="Form" prefHeight="228px" prefWidth="372px" type="DbGridDesignInfo">
-    <treeDesignInfo/>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="141832941248553" field="false"/>
-    </rowsColumnsDesignInfo>
+  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="60px" text="-" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="228px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="60px" text="+" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="button" parent="Form" prefHeight="29px" prefWidth="60px" text="info" type="ButtonDesignInfo">
+    <constraints bottom="7px" height="29px" left="96px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="27px" prefWidth="108px" type="TextFieldDesignInfo">
+    <constraints height="27px" left="12px" top="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="btnPoisk" parent="Form" prefHeight="29px" prefWidth="68px" text="Поиск" type="ButtonDesignInfo">
+    <constraints height="29px" left="156px" top="24px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="180px" prefWidth="372px" type="DbGridDesignInfo">
     <column name="colTeachers_id">
-      <datamodelElement entityId="141832941248553" fieldName="teachers_id"/>
+      <datamodelElement entityId="141890452321607" fieldName="teachers_id"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -19,8 +33,8 @@
       </headerStyle>
       <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colSurname">
-      <datamodelElement entityId="141832941248553" fieldName="surname"/>
+    <column name="colФамилия">
+      <datamodelElement entityId="141890452321607" fieldName="фамилия"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -34,8 +48,8 @@
       </headerStyle>
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colName">
-      <datamodelElement entityId="141832941248553" fieldName="name"/>
+    <column name="colИмя">
+      <datamodelElement entityId="141890452321607" fieldName="имя"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -49,8 +63,8 @@
       </headerStyle>
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <column name="colPatronymicname">
-      <datamodelElement entityId="141832941248553" fieldName="patronymicname"/>
+    <column name="colОтчество">
+      <datamodelElement entityId="141890452321607" fieldName="отчество"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -64,19 +78,11 @@
       </headerStyle>
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
     </column>
-    <constraints height="228px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
-  </widget>
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="60px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="228px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="60px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="button" parent="Form" prefHeight="29px" prefWidth="60px" text="info" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="96px" type="MarginConstraintsDesignInfo" width="60px"/>
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="141890452321607" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="180px" left="12px" top="72px" type="MarginConstraintsDesignInfo" width="372px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel>
   <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
   <entity Name="qDirectionDiscipline" Title="" entityHeight="200" entityIconified="false" entityId="141846405225289" entityLocationX="223" entityLocationY="52" entityWidth="150" queryId="qDirectionDiscipline" tableName="" tableSchemaName=""/>
-  <entity Name="qYears" Title="" entityHeight="200" entityIconified="false" entityId="141846422446040" entityLocationX="487" entityLocationY="251" entityWidth="150" queryId="qYears" tableName="" tableSchemaName=""/>
-  <entity Name="qRaspDiscipline" Title="" entityHeight="200" entityIconified="false" entityId="141846423954098" entityLocationX="114" entityLocationY="299" entityWidth="150" queryId="qRaspDiscipline" tableName="" tableSchemaName=""/>
-  <entity Name="qRateTeacher" Title="" entityHeight="200" entityIconified="false" entityId="141846423550965" entityLocationX="315" entityLocationY="307" entityWidth="150" queryId="qRateTeacher" tableName="" tableSchemaName=""/>
+  <entity Name="qYears" Title="" entityHeight="200" entityIconified="false" entityId="141846422446040" entityLocationX="641" entityLocationY="44" entityWidth="150" queryId="qYears" tableName="" tableSchemaName=""/>
+  <entity Name="qDisciplines" Title="" entityHeight="200" entityIconified="false" entityId="141928084592416" entityLocationX="53" entityLocationY="228" entityWidth="150" queryId="qDisciplines" tableName="" tableSchemaName=""/>
+  <entity Name="qRaspDiscipline" Title="" entityHeight="200" entityIconified="false" entityId="141846423954098" entityLocationX="248" entityLocationY="263" entityWidth="150" queryId="qRaspDiscipline" tableName="" tableSchemaName=""/>
+  <entity Name="qRateTeacher" Title="" entityHeight="200" entityIconified="false" entityId="141846423550965" entityLocationX="429" entityLocationY="247" entityWidth="150" queryId="qRateTeacher" tableName="" tableSchemaName=""/>
+  <entity Name="qTeachers" Title="" entityHeight="200" entityIconified="false" entityId="141924924912104" entityLocationX="611" entityLocationY="256" entityWidth="150" queryId="qTeachers" tableName="" tableSchemaName=""/>
   <entity Name="qDirections" Title="" entityHeight="200" entityIconified="false" entityId="141846421909615" entityLocationX="470" entityLocationY="36" entityWidth="150" queryId="qDirections" tableName="" tableSchemaName=""/>
-  <referenceRelation leftEntityFieldName="newyear" leftEntityId="141846405225289" rightEntityFieldName="years_id" rightEntityId="141846422446040"/>
-  <referenceRelation leftEntityFieldName="teacherr" leftEntityId="141846405225289" rightEntityFieldName="rateteacher_id" rightEntityId="141846423550965"/>
-  <referenceRelation leftEntityFieldName="direction" leftEntityId="141846405225289" rightEntityFieldName="directions_id" rightEntityId="141846421909615"/>
-  <referenceRelation leftEntityFieldName="discipliner" leftEntityId="141846405225289" rightEntityFieldName="raspdisciplines_id" rightEntityId="141846423954098"/>
+  <referenceRelation leftEntityFieldName="преподаватель" leftEntityId="141846423550965" rightEntityFieldName="teachers_id" rightEntityId="141924924912104"/>
+  <referenceRelation leftEntityFieldName="дисциплина" leftEntityId="141846423954098" rightEntityFieldName="discipline_id" rightEntityId="141928084592416"/>
+  <referenceRelation leftEntityFieldName="год" leftEntityId="141846405225289" rightEntityFieldName="years_id" rightEntityId="141846422446040"/>
+  <referenceRelation leftEntityFieldName="направление" leftEntityId="141846405225289" rightEntityFieldName="directions_id" rightEntityId="141846421909615"/>
+  <referenceRelation leftEntityFieldName="преподаватель" leftEntityId="141846405225289" rightEntityFieldName="rateteacher_id" rightEntityId="141846423550965"/>
+  <referenceRelation leftEntityFieldName="дисциплина" leftEntityId="141846405225289" rightEntityFieldName="raspdisciplines_id" rightEntityId="141846423954098"/>
 </datamodel>

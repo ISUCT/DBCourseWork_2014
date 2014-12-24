@@ -20,6 +20,7 @@ function DirectionDiscipline() {
     form.btnDelete.onActionPerformed = function(event) {
         model.qDirectionDiscipline.deleteRow();
     };
+    
     form.btnSave.onActionPerformed = function(event) {
         model.save();
     };

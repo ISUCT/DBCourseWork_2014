@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
   <fieldsEntity entityHeight="72" entityIconified="false" entityId="141725473807586" entityLocationX="392" entityLocationY="170" entityWidth="150" tableName="Years"/>
   <fieldsEntity entityHeight="205" entityIconified="false" entityId="141725187150425" entityLocationX="382" entityLocationY="282" entityWidth="173" tableName="RaspDisciplines"/>
-  <fieldsEntity entityHeight="78" entityIconified="false" entityId="141725106755957" entityLocationX="52" entityLocationY="357" entityWidth="150" tableName="Discipline"/>
-  <fieldsEntity entityHeight="90" entityIconified="false" entityId="141725130689666" entityLocationX="40" entityLocationY="13" entityWidth="150" tableName="Employment"/>
-  <fieldsEntity entityHeight="108" entityIconified="false" entityId="141725167261376" entityLocationX="652" entityLocationY="20" entityWidth="150" tableName="AdditionalInformation"/>
-  <fieldsEntity entityHeight="79" entityIconified="false" entityId="141725485083985" entityLocationX="225" entityLocationY="511" entityWidth="150" tableName="semesters"/>
+  <fieldsEntity entityHeight="78" entityIconified="false" entityId="141725106755957" entityLocationX="44" entityLocationY="317" entityWidth="150" tableName="Discipline"/>
+  <fieldsEntity entityHeight="90" entityIconified="false" entityId="141725130689666" entityLocationX="45" entityLocationY="16" entityWidth="150" tableName="Employment"/>
+  <fieldsEntity entityHeight="108" entityIconified="false" entityId="141725167261376" entityLocationX="601" entityLocationY="20" entityWidth="150" tableName="AdditionalInformation"/>
+  <fieldsEntity entityHeight="79" entityIconified="false" entityId="141725485083985" entityLocationX="225" entityLocationY="459" entityWidth="150" tableName="semesters"/>
   <fieldsEntity entityHeight="129" entityIconified="false" entityId="141725117106415" entityLocationX="424" entityLocationY="20" entityWidth="150" tableName="Teachers"/>
-  <fieldsEntity entityHeight="104" entityIconified="false" entityId="141725311821152" entityLocationX="55" entityLocationY="459" entityWidth="150" tableName="courses"/>
+  <fieldsEntity entityHeight="104" entityIconified="false" entityId="141725311821152" entityLocationX="57" entityLocationY="442" entityWidth="150" tableName="courses"/>
   <fieldsEntity entityHeight="131" entityIconified="false" entityId="141725350814638" entityLocationX="195" entityLocationY="167" entityWidth="150" tableName="DirectionsDisciplines"/>
   <fieldsEntity entityHeight="244" entityIconified="false" entityId="141725200497319" entityLocationX="581" entityLocationY="192" entityWidth="231" tableName="NumHour"/>
-  <fieldsEntity entityHeight="118" entityIconified="false" entityId="141725467696021" entityLocationX="213" entityLocationY="3" entityWidth="150" tableName="RateTeacher"/>
+  <fieldsEntity entityHeight="118" entityIconified="false" entityId="141725467696021" entityLocationX="223" entityLocationY="13" entityWidth="150" tableName="RateTeacher"/>
   <fieldsEntity entityHeight="116" entityIconified="false" entityId="141725093880441" entityLocationX="6" entityLocationY="120" entityWidth="150" tableName="Directions"/>
 </datamodel>

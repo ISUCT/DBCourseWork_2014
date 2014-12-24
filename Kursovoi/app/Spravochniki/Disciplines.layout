@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="275px" prefWidth="477px">
-  <widget name="modelGrid" parent="Form" prefHeight="216px" prefWidth="456px" type="DbGridDesignInfo">
-    <column name="colDisciplinename">
-      <datamodelElement entityId="141725385708209" fieldName="disciplinename"/>
+  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
+    <constraints bottom="6px" height="29px" right="9px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
+    <constraints bottom="6px" height="29px" left="204px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
+    <constraints bottom="6px" height="29px" left="288px" type="MarginConstraintsDesignInfo" width="68px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="216px" prefWidth="444px" type="DbGridDesignInfo">
+    <column name="colНаименование дисциплины">
+      <datamodelElement entityId="141725385708209" fieldName="наименование дисциплины"/>
       <columnsDatasource/>
       <columnsDisplayField/>
       <cellsDatasource/>
@@ -19,16 +28,7 @@
       <rowsDatasource entityId="141725385708209" field="false"/>
     </rowsColumnsDesignInfo>
     <treeDesignInfo/>
-    <constraints height="216px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="456px"/>
-  </widget>
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="6px" height="29px" right="9px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="6px" height="29px" left="204px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="6px" height="29px" left="288px" type="MarginConstraintsDesignInfo" width="68px"/>
+    <constraints height="216px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="444px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>
