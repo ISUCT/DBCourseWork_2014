@@ -5,8 +5,8 @@
 // this === global
 (function () {
     function ready() {
-        P.require(['test111'], function(){
-            var m = new test111();
+        P.require(['Additional'], function(){
+            var m = new Additional();
             m.show();
         }, function(e){
             P.Logger.severe(e);
