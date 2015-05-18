@@ -1,88 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="60px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="228px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="60px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="168px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="button" parent="Form" prefHeight="29px" prefWidth="60px" text="info" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="96px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="textField" parent="Form" prefHeight="27px" prefWidth="108px" type="TextFieldDesignInfo">
-    <constraints height="27px" left="12px" top="24px" type="MarginConstraintsDesignInfo" width="108px"/>
-  </widget>
-  <widget name="btnPoisk" parent="Form" prefHeight="29px" prefWidth="68px" text="Поиск" type="ButtonDesignInfo">
-    <constraints height="29px" left="156px" top="24px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="modelGrid" parent="Form" prefHeight="180px" prefWidth="372px" type="DbGridDesignInfo">
-    <column name="colTeachers_id">
-      <datamodelElement entityId="141890452321607" fieldName="teachers_id"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colФамилия">
-      <datamodelElement entityId="141890452321607" fieldName="фамилия"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colИмя">
-      <datamodelElement entityId="141890452321607" fieldName="имя"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colОтчество">
-      <datamodelElement entityId="141890452321607" fieldName="отчество"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <treeDesignInfo/>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="141890452321607" field="false"/>
-    </rowsColumnsDesignInfo>
-    <constraints height="180px" left="12px" top="72px" type="MarginConstraintsDesignInfo" width="372px"/>
-  </widget>
-  <layout type="MarginLayoutDesignInfo"/>
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <Button cursor="0" name="btnSave" parent="view" prefHeight="29px" prefWidth="60px" text="save">
+    <AnchorsPaneConstraints bottom="7px" height="29px" right="16px" width="60px"/>
+  </Button>
+  <Button cursor="0" name="btnDelete" parent="view" prefHeight="29px" prefWidth="60px" text="-">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="228px" width="60px"/>
+  </Button>
+  <Button cursor="0" name="btnInsert" parent="view" prefHeight="29px" prefWidth="60px" text="+">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="168px" width="60px"/>
+  </Button>
+  <Button cursor="0" name="button" parent="view" prefHeight="29px" prefWidth="60px" text="info">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="96px" width="60px"/>
+  </Button>
+  <TextField cursor="0" name="textField" parent="view" prefHeight="27px" prefWidth="108px">
+    <AnchorsPaneConstraints height="27px" left="12px" top="24px" width="108px"/>
+  </TextField>
+  <Button cursor="0" name="btnPoisk" parent="view" prefHeight="29px" prefWidth="68px" text="Поиск">
+    <AnchorsPaneConstraints height="29px" left="156px" top="24px" width="68px"/>
+  </Button>
+  <ModelGrid cursor="0" data="qPoisk" name="modelGrid" parent="view" prefHeight="180px" prefWidth="372px">
+    <AnchorsPaneConstraints height="180px" left="12px" right="16px" top="72px"/>
+    <ServiceGridColumn name="rows-header-service" resizable="true"/>
+    <ModelGridColumn field="teachers_id" name="colTeachers_id" title="colTeachers_id" width="84px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="фамилия" name="colФамилия" title="colФамилия" width="84px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="имя" name="colИмя" title="colИмя" width="85px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+    <ModelGridColumn field="отчество" name="colОтчество" title="colОтчество" width="84px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
 </layout>

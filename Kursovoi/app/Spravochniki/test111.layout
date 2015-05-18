@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <TabbedPane cursor="0" name="tabbedPane" parent="view" prefHeight="260px" prefWidth="340px">
+    <AnchorsPaneConstraints height="260px" left="20px" top="20px" width="340px"/>
+  </TabbedPane>
+  <AnchorsPane background="#ffffff" cursor="0" name="panel" parent="tabbedPane" prefHeight="223px" prefWidth="332px">
+    <TabbedPaneConstraints tabTitle="tab0"/>
+  </AnchorsPane>
+  <AnchorsPane background="#ffffff" cursor="0" name="panel1" parent="tabbedPane" prefHeight="223px" prefWidth="332px" visible="false">
+    <TabbedPaneConstraints tabTitle="tab1"/>
+  </AnchorsPane>
+</layout>

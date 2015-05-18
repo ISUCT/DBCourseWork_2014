@@ -1,254 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="394px" prefWidth="615px">
-  <widget name="label9" parent="Form" prefHeight="24px" prefWidth="132px" text="ГАК" type="LabelDesignInfo">
-    <constraints bottom="82px" height="24px" left="336px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label8" parent="Form" prefHeight="24px" prefWidth="132px" text="Курсовые проекты" type="LabelDesignInfo">
-    <constraints height="24px" left="336px" top="252px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label7" parent="Form" prefHeight="24px" prefWidth="132px" text="Производственная практика" type="LabelDesignInfo">
-    <constraints height="24px" left="336px" top="216px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label6" parent="Form" prefHeight="24px" prefWidth="132px" text="Экзамены" type="LabelDesignInfo">
-    <constraints height="24px" left="336px" top="144px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label5" parent="Form" prefHeight="24px" prefWidth="132px" text="Зачеты" type="LabelDesignInfo">
-    <constraints height="24px" left="336px" top="180px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label4" parent="Form" prefHeight="24px" prefWidth="132px" text="Групповые консультации" type="LabelDesignInfo">
-    <constraints bottom="82px" height="24px" left="24px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label3" parent="Form" prefHeight="24px" prefWidth="132px" text="Индивидуальные консультации" type="LabelDesignInfo">
-    <constraints height="24px" left="24px" top="252px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label2" parent="Form" prefHeight="24px" prefWidth="132px" text="Лабораторные занятия" type="LabelDesignInfo">
-    <constraints height="24px" left="24px" top="216px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="label1" parent="Form" prefHeight="24px" prefWidth="132px" text="Практики" type="LabelDesignInfo">
-    <constraints height="24px" left="24px" top="180px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="216px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="144px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="modelFormattedField" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="лекции"/>
-    <constraints height="27px" left="168px" top="144px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField1" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="практики"/>
-    <constraints height="27px" left="168px" top="180px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField2" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="лабораторные занятия"/>
-    <constraints height="27px" left="168px" top="216px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField3" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="индивидуальные консультации"/>
-    <constraints height="27px" left="168px" top="252px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField4" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="групповые консультации"/>
-    <constraints bottom="79px" height="27px" left="168px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField5" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="экзамены"/>
-    <constraints height="27px" right="35px" top="144px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField6" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="зачеты"/>
-    <constraints height="27px" right="35px" top="180px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField7" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="производственная практика"/>
-    <constraints height="27px" right="35px" top="216px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField8" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="курсовые проекты"/>
-    <constraints height="27px" right="35px" top="252px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="modelFormattedField9" parent="Form" prefHeight="27px" prefWidth="100px" type="DbLabelDesignInfo">
-    <datamodelElement entityId="141845616923983" fieldName="гак"/>
-    <constraints bottom="79px" height="27px" right="35px" type="MarginConstraintsDesignInfo" width="100px"/>
-  </widget>
-  <widget name="label" parent="Form" prefHeight="24px" prefWidth="132px" text="Лекции" type="LabelDesignInfo">
-    <constraints height="24px" left="24px" top="144px" type="MarginConstraintsDesignInfo" width="132px"/>
-  </widget>
-  <widget name="modelGrid" parent="Form" prefHeight="120px" prefWidth="588px" type="DbGridDesignInfo">
-    <column name="colNumhour_id">
-      <datamodelElement entityId="141845616923983" fieldName="numhour_id"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colЛекции">
-      <datamodelElement entityId="141845616923983" fieldName="лекции"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colПрактики">
-      <datamodelElement entityId="141845616923983" fieldName="практики"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colЛабораторные занятия">
-      <datamodelElement entityId="141845616923983" fieldName="лабораторные занятия"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colИндивидуальные консультации">
-      <datamodelElement entityId="141845616923983" fieldName="индивидуальные консультации"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colГрупповые консультации">
-      <datamodelElement entityId="141845616923983" fieldName="групповые консультации"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colЭкзамены">
-      <datamodelElement entityId="141845616923983" fieldName="экзамены"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colЗачеты">
-      <datamodelElement entityId="141845616923983" fieldName="зачеты"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colПроизводственная практика">
-      <datamodelElement entityId="141845616923983" fieldName="производственная практика"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colКурсовые проекты">
-      <datamodelElement entityId="141845616923983" fieldName="курсовые проекты"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colГак">
-      <datamodelElement entityId="141845616923983" fieldName="гак"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <treeDesignInfo/>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="141845616923983" field="false"/>
-    </rowsColumnsDesignInfo>
-    <constraints height="120px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="588px"/>
-  </widget>
-  <layout type="MarginLayoutDesignInfo"/>
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane cursor="0" name="view" prefHeight="394px" prefWidth="615px"/>
+  <Label cursor="0" name="label9" parent="view" prefHeight="24px" prefWidth="132px" text="ГАК">
+    <AnchorsPaneConstraints bottom="82px" height="24px" left="336px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label8" parent="view" prefHeight="24px" prefWidth="132px" text="Курсовые проекты">
+    <AnchorsPaneConstraints height="24px" left="336px" top="252px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label7" parent="view" prefHeight="24px" prefWidth="132px" text="Производственная практика">
+    <AnchorsPaneConstraints height="24px" left="336px" top="216px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label6" parent="view" prefHeight="24px" prefWidth="132px" text="Экзамены">
+    <AnchorsPaneConstraints height="24px" left="336px" top="144px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label5" parent="view" prefHeight="24px" prefWidth="132px" text="Зачеты">
+    <AnchorsPaneConstraints height="24px" left="336px" top="180px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label4" parent="view" prefHeight="24px" prefWidth="132px" text="Групповые консультации">
+    <AnchorsPaneConstraints bottom="82px" height="24px" left="24px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label3" parent="view" prefHeight="24px" prefWidth="132px" text="Индивидуальные консультации">
+    <AnchorsPaneConstraints height="24px" left="24px" top="252px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label2" parent="view" prefHeight="24px" prefWidth="132px" text="Лабораторные занятия">
+    <AnchorsPaneConstraints height="24px" left="24px" top="216px" width="132px"/>
+  </Label>
+  <Label cursor="0" name="label1" parent="view" prefHeight="24px" prefWidth="132px" text="Практики">
+    <AnchorsPaneConstraints height="24px" left="24px" top="180px" width="132px"/>
+  </Label>
+  <Button cursor="0" name="btnSave" parent="view" prefHeight="29px" prefWidth="60px" text="save">
+    <AnchorsPaneConstraints bottom="7px" height="29px" right="16px" width="60px"/>
+  </Button>
+  <Button cursor="0" name="btnDelete" parent="view" prefHeight="29px" prefWidth="68px" text="-">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="216px" width="68px"/>
+  </Button>
+  <Button cursor="0" name="btnInsert" parent="view" prefHeight="29px" prefWidth="68px" text="+">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="144px" width="68px"/>
+  </Button>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.лекции" format="" name="modelFormattedField" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" left="168px" top="144px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.практики" format="" name="modelFormattedField1" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" left="168px" top="180px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.лабораторные занятия" format="" name="modelFormattedField2" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" left="168px" top="216px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.индивидуальные консультации" format="" name="modelFormattedField3" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" left="168px" top="252px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.групповые консультации" format="" name="modelFormattedField4" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints bottom="79px" height="27px" left="168px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.экзамены" format="" name="modelFormattedField5" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" right="35px" top="144px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.зачеты" format="" name="modelFormattedField6" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" right="35px" top="180px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.производственная практика" format="" name="modelFormattedField7" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" right="35px" top="216px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.курсовые проекты" format="" name="modelFormattedField8" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints height="27px" right="35px" top="252px" width="100px"/>
+  </ModelFormattedField>
+  <ModelFormattedField cursor="0" data="qNumHour" field="cursor.гак" format="" name="modelFormattedField9" parent="view" prefHeight="27px" prefWidth="100px">
+    <AnchorsPaneConstraints bottom="79px" height="27px" right="35px" width="100px"/>
+  </ModelFormattedField>
+  <Label cursor="0" name="label" parent="view" prefHeight="24px" prefWidth="132px" text="Лекции">
+    <AnchorsPaneConstraints height="24px" left="24px" top="144px" width="132px"/>
+  </Label>
+  <ModelGrid cursor="0" data="qNumHour" name="modelGrid" parent="view" prefHeight="120px" prefWidth="588px">
+    <AnchorsPaneConstraints height="120px" left="12px" top="12px" width="588px"/>
+    <ServiceGridColumn name="rows-header-service"/>
+    <ModelGridColumn field="numhour_id" name="colNumhour_id" title="colNumhour_id" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="лекции" name="colЛекции" title="colЛекции" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="практики" name="colПрактики" title="colПрактики" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="лабораторные занятия" name="colЛабораторные занятия" title="colЛабораторные занятия" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="индивидуальные консультации" name="colИндивидуальные консультации" title="colИндивидуальные консультации" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="групповые консультации" name="colГрупповые консультации" title="colГрупповые консультации" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="экзамены" name="colЭкзамены" title="colЭкзамены" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="зачеты" name="colЗачеты" title="colЗачеты" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="производственная практика" name="colПроизводственная практика" title="colПроизводственная практика" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="курсовые проекты" name="colКурсовые проекты" title="colКурсовые проекты" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="гак" name="colГак" title="colГак" width="75px">
+      <ModelSpin/>
+    </ModelGridColumn>
+  </ModelGrid>
 </layout>

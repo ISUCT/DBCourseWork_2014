@@ -22,11 +22,15 @@ function Additional(teacherId) {
 
     // TODO : place your code here
     form.btnInsert.onActionPerformed = function (event) {
-        model.qAdditional.insert(model.qAdditional.schema.additionalinformation_id, teacherId);
+        model.qAdditional.push({});
     };
 
     form.btnDelete.onActionPerformed = function (event) {
-        model.qAdditional.deleteRow();
+        if (confirm("Delete?")) {
+        for (var i in form.modelGrid.selected) {
+            model.qAdditional.splice(model.qAdditional.indexOf(form.modelGrid.selected[i]), 1);
+        }
+    }
     };
 
     form.btnSave.onActionPerformed = function (event) {

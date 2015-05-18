@@ -15,10 +15,15 @@ function DirectionDiscipline() {
     
     // TODO : place your code here
     form.btnInsert.onActionPerformed = function(event) {
-        model.qDirectionDiscipline.insert();
+        model.qDirectionDiscipline.push({});
     };
     form.btnDelete.onActionPerformed = function(event) {
-        model.qDirectionDiscipline.deleteRow();
+        var c = confirm("Delete?");
+        if (c) {
+        for (var i in form.modelGrid.selected) {
+            model.qDirectionDiscipline.splice(model.qDirectionDiscipline.indexOf(form.modelGrid.selected[i]), 1);
+        }
+    }
     };
     
     form.btnSave.onActionPerformed = function(event) {

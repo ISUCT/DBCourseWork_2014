@@ -1,49 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
-  <widget name="btnSave" parent="Form" prefHeight="29px" prefWidth="60px" text="save" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" right="16px" type="MarginConstraintsDesignInfo" width="60px"/>
-  </widget>
-  <widget name="btnInsert" parent="Form" prefHeight="29px" prefWidth="68px" text="+" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="144px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="btnDelete" parent="Form" prefHeight="29px" prefWidth="68px" text="-" type="ButtonDesignInfo">
-    <constraints bottom="7px" height="29px" left="216px" type="MarginConstraintsDesignInfo" width="68px"/>
-  </widget>
-  <widget name="modelGrid" parent="Form" prefHeight="240px" prefWidth="372px" type="DbGridDesignInfo">
-    <column name="colDirections_id">
-      <datamodelElement entityId="141725571307409" fieldName="directions_id"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <column name="colНаименование направления">
-      <datamodelElement entityId="141725571307409" fieldName="наименование направления"/>
-      <columnsDatasource/>
-      <columnsDisplayField/>
-      <cellsDatasource/>
-      <cellDesignInfo>
-        <rowsKeyField/>
-        <columnsKeyField/>
-        <cellValueField/>
-      </cellDesignInfo>
-      <headerStyle>
-        <nativeFont name="Ubuntu" size="15"/>
-      </headerStyle>
-      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-    </column>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="141725571307409" field="false"/>
-    </rowsColumnsDesignInfo>
-    <treeDesignInfo/>
-    <constraints height="240px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="372px"/>
-  </widget>
-  <layout type="MarginLayoutDesignInfo"/>
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane cursor="0" name="view" prefHeight="300px" prefWidth="400px"/>
+  <Button cursor="0" name="btnSave" parent="view" prefHeight="29px" prefWidth="60px" text="save">
+    <AnchorsPaneConstraints bottom="7px" height="29px" right="16px" width="60px"/>
+  </Button>
+  <Button cursor="0" name="btnInsert" parent="view" prefHeight="29px" prefWidth="68px" text="+">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="144px" width="68px"/>
+  </Button>
+  <Button cursor="0" name="btnDelete" parent="view" prefHeight="29px" prefWidth="68px" text="-">
+    <AnchorsPaneConstraints bottom="7px" height="29px" left="216px" width="68px"/>
+  </Button>
+  <ModelGrid cursor="0" data="qDirections" name="modelGrid" parent="view" prefHeight="240px" prefWidth="372px">
+    <AnchorsPaneConstraints height="240px" left="12px" top="12px" width="372px"/>
+    <ServiceGridColumn name="rows-header-service"/>
+    <ModelGridColumn field="directions_id" name="colDirections_id" title="colDirections_id" width="169px">
+      <ModelSpin/>
+    </ModelGridColumn>
+    <ModelGridColumn field="наименование направления" name="colНаименование направления" title="colНаименование направления" width="168px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
 </layout>
